@@ -1,0 +1,115 @@
+.Custom{
+    background-color: #0c2137;
+}
+.CustomLink{
+    color: white;
+    
+}
+.CustomLink:link{
+    text-decoration: none;
+    color: white;
+}
+.footerUL{
+    list-style-type: none;
+}
+.CustomLink:hover{
+    color: green;
+}
+.footerLI{
+    position: relative;
+    padding-left: 15px; 
+    line-height: 39px;
+}
+.footerLI::before{
+    content: "–";
+    color:white;
+    font-weight: bold ;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.CardLink:link{
+    text-decoration: none;
+    color:rgb(56, 54, 54)
+    
+}
+.CardLink:hover{
+    color: green !important;
+}
+.btn.BTNH{
+    background-color:#195242;
+    color: white;
+
+}
+.btn.BTNH:hover{
+    background-color:rgb(51, 53, 51);
+    color:white;
+}
+.nav-link{
+    color:white !important;
+}
+/*.nav-link:link{
+    color:rgb(28, 27, 27) !important;    
+}*/
+.nav-link:hover{
+    color: green !important;
+    
+}
+/* Custom submenu behavior */
+.dropdown-submenu {
+    position: relative;
+  }
+  
+  .dropdown-submenu > .dropdown-menu {
+    top: 0;
+    display: none;
+    position: absolute;
+  }
+  
+  /* Show submenu on hover */
+  .dropdown-submenu:hover > .dropdown-menu {
+    display: block;
+  }
+  
+  /* Open submenu to the left */
+  .dropdown-submenu .dropdown-left {
+    right: 100%;
+    left: auto;
+    margin-right: 0.1rem;
+  }
+  .customBTN{
+   background-color: #195242; 
+   color: white;
+   border-color: white;
+  }
+  .customBTN:hover{
+    color:black !important;
+    background-color: white !important;
+  }
+  /*contact us form*/
+  .customForm input::placeholder{
+    color:rgb(233, 225, 225);
+  }
+/*carousel*/
+.carousel-item{
+    height: 700px;
+}
+/*top arrow*/
+.topArrow{
+    width: 70px;
+    position:sticky;
+    left: 94%;
+    bottom: 120px;
+    border: 3px ridge rgb(128, 128, 128);
+    border-radius: 50%;
+    text-align: center;
+    background-color: white;
+}
+.textTop{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+  
