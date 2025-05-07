@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./styles.css" />
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light text-light sticky-top" style="background-color: rgb(12, 33, 55);"
+        id="goTOTop">
+        <div class="container-fluid  ">
+            <a href="#" class="nav-link" style="margin-left: 150px;"><i
+                    class="fa-solid fa-envelope me-2"></i>helpdesk@wisdomsprouts.in</a>
+            <a href="#" class="nav-link" style="margin-left: 250px;"><i
+                    class="fa-solid fa-phone me-2"></i>+91-777-0043-825</a>
+
+            <div class="collapse navbar-collapse" id="navbarNav" style="margin-left: 300px;">
+                <a href="#" class="nav-link"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" class="nav-link"><i class="fa-brands fa-twitter"></i></i></a>
+                <a href="#" class="nav-link"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#" class="nav-link"><i class="fa-brands fa-instagram"></i></a>
+
+            </div>
+        </div>
+    </nav>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top " >
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./wisdomlogo.png" alt="" width="80" height="40">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto  ">
+                    <li class="nav-item">
+                        <a class="nav-link  mx-3 text-dark" aria-current="page" href="index.html">Home</a>
+                    </li>
+
+                    <!--Courses Dropdown-->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle mx-2 text-dark" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Courses
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Job FullFillment Program-100%
+                                    Job Guarantee-Full Stack Web Development Course
+                                </a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <!--Web development Submenu-->
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item dropdown-toggle" href="#">Web Development</a>
+                                <ul class="dropdown-menu dropdown-left">
+                                    <li><a class="dropdown-item" href="#">Java Full Stack</a></li>
+                                    <li><a class="dropdown-item" href="#">MERN Full Stack</a></li>
+                                    <li><a class="dropdown-item" href="#">PHP Full Stack</a></li>
+                                    <li><a class="dropdown-item" href="#">React.js Full Stack</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+
+                            <!-- Default dropend button -->
+                            <!-- Programming submenu -->
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item dropdown-toggle" href="#">Programming</a>
+                                <ul class="dropdown-menu dropdown-left">
+                                    <li><a class="dropdown-item" href="#">Java</a></li>
+                                    <li><a class="dropdown-item" href="#">Python</a></li>
+                                    <li><a class="dropdown-item" href="#">C++</a></li>
+                                    <li><a class="dropdown-item" href="#">C</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <li class="nav-item">
+                        <a class="nav-link mx-2 text-dark" href="#">Placements</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active mx-2 text-dark" href="contactus.html">Contact Us</a>
+                    </li>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <i class="fa-solid fa-address-card"></i>
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Get Free Career Guidance</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="col-auto">
+                                                <p>
+                                                    <i class="fa-solid fa-circle-user"></i><input type="text"
+                                                        class="form-control" placeholder=" Your Name">
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="col-auto">
+                                                <p>
+                                                    <i class="fa-brands fa-whatsapp"></i><input type="number"
+                                                        class="form-control" placeholder=" WhatsApp Number">
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="col-auto">
+                                                <p>
+                                                    <i class="fa-solid fa-envelope"></i><input type="email"
+                                                        class="form-control" placeholder=" Your Email">
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="col mb-5 pb-3">
+                                            <p><i class="fa-solid fa-phone"></i>
+                                                <select class="form-select" aria-label="Default select example">
+                                                    <option selected>Select Courses From Below</option>
+                                                    <option value="1">MERN Full Stack</option>
+                                                    <option value="2">Java Full Stack</option>
+                                                    <option value="3">Python Full Stack</option>
+                                                    <option value="3">PHP Full Stack</option>
+                                                </select>
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="col-auto">
+                                                <p>
+                                                    <i class="fa-solid fa-message"></i><input type="text"
+                                                        class="form-control" placeholder=" Message">
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn"
+                                        style="background-color: #195242; color: white;">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link mx-2 text-dark" href="aboutUs.html">About Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section>
+        <div class="container" style="margin-left: 140px;">        
+        <div class="row pb-2" style=" margin-bottom: 40px;">
+            <div class="col col-4">
+                <img src="https://i0.wp.com/wisdomsprouts.in/wp-content/uploads/2024/12/Sujit-Solav-1.png?w=500&ssl=1" alt="img1" style="height:350px;"/>
+            </div>
+            <div class="col col-4">
+                <img src="https://i0.wp.com/wisdomsprouts.in/wp-content/uploads/2024/12/Sukanya-Shinde.png?w=500&ssl=1 " alt="img1" style="height:350px;"/>
+
+            </div>
+            <div class="col col-4">
+                <img src="https://i0.wp.com/wisdomsprouts.in/wp-content/uploads/2024/12/Vaibhav-Patil.png?w=500&ssl=1 " alt="img1" style="height:350px;"/>
+
+            </div>
+           
+        </div>
+        <div class="row pb-2" style=" margin-bottom: 40px;">
+            <div class="col col-4">
+                <img src="https://i0.wp.com/wisdomsprouts.in/wp-content/uploads/2024/12/Chaitanya-Ubale.png?w=500&ssl=1" alt="img1" style="height:350px;"/>
+            </div>
+            <div class="col col-4">
+                <img src="https://i0.wp.com/wisdomsprouts.in/wp-content/uploads/2024/12/Ankita-Kawade.png?w=500&ssl=1 " alt="img1" style="height:350px;"/>
+
+            </div>
+            <div class="col col-4">
+                <img src=" https://i0.wp.com/wisdomsprouts.in/wp-content/uploads/2024/12/Sneha-Sharma.png?w=500&ssl=1" alt="img1" style="height:350px;"/>
+
+            </div>
+           
+        </div>
+        <div class="row pb-2" style=" margin-bottom: 40px;">
+            <div class="col col-4">
+                <img src="https://i0.wp.com/wisdomsprouts.in/wp-content/uploads/2024/12/Charudatta-Ghute.png?w=500&ssl=1" alt="img1" style="height:350px;"/>
+            </div>
+            <div class="col col-4">
+                <img src="https://i0.wp.com/wisdomsprouts.in/wp-content/uploads/2024/12/Prajwal-More.png?w=500&ssl=1 " alt="img1" style="height:350px;"/>
+
+            </div>
+            <div class="col col-4">
+                <img src="https://i0.wp.com/wisdomsprouts.in/wp-content/uploads/2024/12/Amaan-Ansari.png?w=500&ssl=1 " alt="img1" style="height:350px;"/>
+
+            </div>
+           
+        </div>
+        <div class="row pb-2" style=" margin-bottom: 40px;">
+            <div class="col col-4">
+                <img src="https://i0.wp.com/wisdomsprouts.in/wp-content/uploads/2024/12/Karan-Pawar.png?w=500&ssl=1" alt="img1" style="height:350px;"/>
+            </div>
+            <div class="col col-4">
+                <img src="https://i0.wp.com/wisdomsprouts.in/wp-content/uploads/2024/12/Swarup-Gadale.png?w=500&ssl=1 " alt="img1" style="height:350px;"/>
+
+            </div>
+            <div class="col col-4">
+                <img src="https://i0.wp.com/wisdomsprouts.in/wp-content/uploads/2024/12/Shanbhavi-Kulkarni.png?w=500&ssl=1 " alt="img1" style="height:350px;"/>
+
+            </div>
+           
+        </div>
+        <div class="row pb-2" style=" margin-bottom: 40px;">
+            <div class="col col-4">
+                <img src="https://i0.wp.com/wisdomsprouts.in/wp-content/uploads/2024/12/Abhishek-B.png?w=500&ssl=1" alt="img1" style="height:350px;"/>
+            </div>
+            <div class="col col-4">
+                <img src="https://i0.wp.com/wisdomsprouts.in/wp-content/uploads/2024/12/Priyal-Shah.png?w=500&ssl=1 " alt="img1" style="height:350px;"/>
+
+            </div>
+            <div class="col col-4">
+                <img src="https://i0.wp.com/wisdomsprouts.in/wp-content/uploads/2024/12/Saurabh-Desai.png?w=500&ssl=1" alt="img1" style="height:350px;"/>
+
+            </div>
+           
+        </div>
+        </div>
+    </section>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <footer>
+        <div class="container-fluid text-light Custom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <img src="./wisdomlogo.png" alt="logo" class="img-fluid"
+                            style="width: 170px; height:100px; padding:10px;" />
+
+                        <p class="lead">Wisdom Sprouts IT Training Hub is a leading IT training provider institute in
+                            Pune. Wisdom Sprouts is owned by ScaleFull Technologies LLP.</p>
+                        <h4>Opening Hours</h4>
+                        <div class="d-flex justify-content-between">
+                            <p>Mon - Sat</p>
+                            <p>09AM - 07PM</p>
+                        </div>
+                        <hr>
+                        <div class="d-flex justify-content-between">
+                            <p>Sun</p>
+                            <p>Closed</p>
+                        </div>
+                        <hr>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <h3 class="my-4 pb-2" style="padding-left: 30px;">Checkout</h3>
+                        <ul class="footerUL">
+                            <li class="footerLI "><a href="#" class="CustomLink">College Trainings | Internships |
+                                    Workshops</a></li>
+                            <li class="footerLI "><a href="#" class="CustomLink">Our Placements</a></li>
+                            <li class="footerLI "><a href="#" class="CustomLink">Contact Us</a></li>
+                            <li class="footerLI "><a href="#" class="CustomLink">About Us</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <h3 class="my-4 pb-2" style="padding-left: 30px;">Our Courses</h3>
+                        <ul class="footerUL">
+                            <li class="footerLI "><a href="#" class="CustomLink">Job Guaranteed Program MERN</a></li>
+                            <li class="footerLI "><a href="#" class="CustomLink">MERN – Full Stack Web Development</a>
+                            </li>
+                            <li class="footerLI "><a href="#" class="CustomLink">Java – Full Stack Web Development</a>
+                            </li>
+                            <li class="footerLI "><a href="#" class="CustomLink">PHP – Full Stack Web Development</a>
+                            </li>
+                            <li class="footerLI "><a href="#" class="CustomLink">React.js – Frontend Web Development</a>
+                            </li>
+                            <li class="footerLI "><a href="#" class="CustomLink">Front-end Web Development</a></li>
+                            <li class="footerLI "><a href="#" class="CustomLink">Java</a></li>
+                            <li class="footerLI "><a href="#" class="CustomLink">Python</a></li>
+                            <li class="footerLI "><a href="#" class="CustomLink">C++</a></li>
+                            <li class="footerLI "><a href="#" class="CustomLink">C</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <h3 class="my-4 pb-2">Get In Touch</h3>
+                        <address>
+                            <p style="line-height: 20px;" class="pb-10px">
+                                406, White Square,<br>
+                                Wakad-Hinjawadi Road<br>
+                                Wakad<br>
+                                Pune, Maharashtra 411045<br>
+                                India<br>
+                                helpdesk@wisdomsprouts.in<br>
+                                +91-7770043825<br></p>
+                        </address>
+
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="text-center">
+                <p>Hinjawadi | Akurdi | Sinhagad Road | Tilak Road</p>
+            </div>
+            <hr>
+            <div class="text-center pb-3">
+                <p>Copyright © 2023 Wisdom Sprouts IT Training Hub. All rights reserved.
+                </p>
+            </div>
+
+        </div>
+    </footer>
+
+    <div class="topArrow">
+        <a href="#goTOTop" class="textTop">
+            <i class="fa-solid fa-arrow-up"></i><br>TOP
+        </a>
+    </div>
+
+    <a href="https://web.whatsapp.com/" style="position: fixed; bottom: 20px; right: 20px; z-index: 1000;">
+        <img src="./whatsapp.jpeg" alt="WhatsApp" style="width: 60px; height: 60px; border-radius: 25%;">
+    </a>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
