@@ -1,0 +1,697 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./styles.css" />
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light text-light" style="background-color: rgb(12, 33, 55);" id="goTOTop">
+        <div class="container-fluid  ">
+            <a href="#" class="nav-link" style="margin-left: 150px;"><i
+                    class="fa-solid fa-envelope me-2"></i>helpdesk@wisdomsprouts.in</a>
+            <a href="#" class="nav-link" style="margin-left: 250px;"><i
+                    class="fa-solid fa-phone me-2"></i>+91-777-0043-825</a>
+
+            <div class="collapse navbar-collapse" id="navbarNav" style="margin-left: 300px;">
+                <a href="#" class="nav-link"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" class="nav-link"><i class="fa-brands fa-twitter"></i></i></a>
+                <a href="#" class="nav-link"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#" class="nav-link"><i class="fa-brands fa-instagram"></i></a>
+
+            </div>
+        </div>
+    </nav>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./wisdomlogo.png" alt="" width="80" height="40">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto  ">
+                    <li class="nav-item">
+                        <a class="nav-link active mx-3 text-dark" aria-current="page" href="index.html">Home</a>
+                    </li>
+
+                    <!--Courses Dropdown-->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle mx-2 text-dark" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Courses
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Job FullFillment Program-100%
+                                    Job Guarantee-Full Stack Web Development Course
+                                </a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <!--Web development Submenu-->
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item dropdown-toggle" href="#">Web Development</a>
+                                <ul class="dropdown-menu dropdown-left">
+                                    <li><a class="dropdown-item" href="#">Java Full Stack</a></li>
+                                    <li><a class="dropdown-item" href="#">MERN Full Stack</a></li>
+                                    <li><a class="dropdown-item" href="#">PHP Full Stack</a></li>
+                                    <li><a class="dropdown-item" href="#">React.js Full Stack</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+
+                            <!-- Default dropend button -->
+                            <!-- Programming submenu -->
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item dropdown-toggle" href="#">Programming</a>
+                                <ul class="dropdown-menu dropdown-left">
+                                    <li><a class="dropdown-item" href="#">Java</a></li>
+                                    <li><a class="dropdown-item" href="#">Python</a></li>
+                                    <li><a class="dropdown-item" href="#">C++</a></li>
+                                    <li><a class="dropdown-item" href="#">C</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <li class="nav-item">
+                        <a class="nav-link mx-2 text-dark" href="#">Placements</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-2 text-dark" href="contactus.html">Contact Us</a>
+                    </li>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <i class="fa-solid fa-address-card"></i>
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Get Free Career Guidance</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="col-auto">
+                                                <p>
+                                                    <i class="fa-solid fa-circle-user"></i><input type="text"
+                                                        class="form-control" placeholder=" Your Name">
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="col-auto">
+                                                <p>
+                                                    <i class="fa-brands fa-whatsapp"></i><input type="number"
+                                                        class="form-control" placeholder=" WhatsApp Number">
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="col-auto">
+                                                <p>
+                                                    <i class="fa-solid fa-envelope"></i><input type="email"
+                                                        class="form-control" placeholder=" Your Email">
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="col mb-5 pb-3">
+                                            <p><i class="fa-solid fa-envelope"></i>
+                                                <select class="form-select" aria-label="Default select example">
+                                                    <option selected>Select Courses From Below</option>
+                                                    <option value="1">MERN Full Stack</option>
+                                                    <option value="2">Java Full Stack</option>
+                                                    <option value="3">Python Full Stack</option>
+                                                    <option value="3">PHP Full Stack</option>
+                                                </select>
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="col-auto">
+                                                <p>
+                                                    <i class="fa-solid fa-message"></i><input type="text"
+                                                        class="form-control" placeholder=" Message">
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn"
+                                        style="background-color: #195242; color: white;">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link mx-2 text-dark" href="aboutUs.html">About Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Carouasal Part-->
+    <section>
+        <div class="container-fluid">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner ">
+                    <div class="carousel-item active">
+                        <img src="./slide1.jpg" class="d-block w-100 " alt="...">
+                        <div class="carousel-caption d-none d-md-block start-25"
+                            style="background-color: rgba(2, 69, 47, 0.8);  color:white; margin-bottom: 165px;">
+                            <h1 class="fw-bolder pt-4 pb-4">SUCCESS STORIES</h1>
+                            <h3 class="pb-4">BE A PART OF IT.</h3>
+                            <button class="p-2 ps-4 pe-4"
+                                style="background-color:rgba(21, 21, 21, 0.8); color:white; border-radius: 15%;">Join
+                                Now</button><br><br>
+                        </div>
+                    </div>
+                    <div class="carousel-item" style="position:relative;">
+                        <img src="./slide4.jpg" class="d-block w-100" alt="...">
+
+                        <!-- First Caption -->
+                        <div style="position: absolute; top: 0; left: 0; color: white; padding: 20px; z-index: 10;">
+                            <h1 class="fw-bolder m-0">BASICS<br>TO<br>ADVANCE</h1>
+                        </div>
+
+
+                        <!-- Second Caption -->
+                        <div style="position:absolute; bottom:0; left:0; width:600px;">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h1 class="fw-bolder pt-2 pb-2">WEB DEVELOPMENT</h1>
+                            </div>
+                        </div>
+
+                        <!-- Third Caption -->
+                        <div style="position:absolute; bottom:0; left:1100px; width:400px;">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 class="fw-bolder pt-2 pb-2" style="color:rgb(6, 6, 105)">MERN STACK DEVELOPMENT</h5>
+                                <p>100% PRACTICAL SESSIONS<br>PERSONAL MENTORSHIP<br>INTERVIEW PREPERATION<br>3-6 MONTHS
+                                    INTERNSHIP</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="carousel-item">
+                        <img src="./slide6.png" class="d-block w-100" alt="...">
+                        <div style="position:absolute; bottom:330px; right:50px; width:400px;">
+                            <div class="carousel-caption d-none d-md-block">
+                                <button class="p-2 ps-5 pe-5 m-5 fw-bolder "
+                                    style="background-color:rgb(243, 112, 18); color:rgb(33, 2, 82); border-radius: 15%; border-color: black; border-width: 5px; font-size: x-large; width:300px;">CLOUD
+                                    COMPUTING <br> DEVOPS+AWS</button><br><br>
+                            </div>
+                        </div>
+                        <div style="position:absolute; bottom:50px; right:160px; width:250px;">
+                            <div class="carousel-caption d-none d-md-block">
+                                <button class="p-2 ps-5 pe-5 m-5 pb-2 pt-2 fw-bolder "
+                                    style="background-color:rgb(13, 178, 215); color:white; border-radius: 15%; border-color: rgb(13, 178, 215); border-width: 5px; font-size: x-large; width:300px;">ENROLL
+                                    NOW</button><br><br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        </div>
+    </section>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <section>
+        <div class="container-fluid" style="background-color: rgb(222, 223, 224);">
+            <h6 class="text-danger text-center my-3 pt-4">YOU CAN LEARN IT</h6>
+            <h2 class="fw-bolder text-center">Featured Courses</h2>
+            <p class="my-4 mb-5 text-center">These are the most trending and favourite courses among our students.</p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <div class="card">
+                            <img src="./featuredImg1.jpg" class="card-img-top" alt="Img1" style="height:255px" />
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="#" class="CardLink text-dark fw-bolder">Job Fulfilment
+                                        Program - MERN Stack</a></h5>
+                                <p class="card-text">Learn web development from basics to advanced and data structures
+                                    in this course. This course covers MERN stack, MySQL and data structures with Java.
+                                </p>
+                                <a href="#" class="btn  BTNH">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card">
+                            <img src="./featuredImg2.jpg" class="card-img-top" alt="Img2" style="height:255px">
+                            <div class="card-body">
+                                <h5 class="card-title "><a href="#" class="CardLink text-dark fw-bolder">Java - Full
+                                        Stack Web Development</a></h5>
+                                <p class="card-text">Learn to develop awesome web applications using evergreen Java,
+                                    MySQL and cutting edge technologies like React.js.</p>
+                                <a href="#" class="btn  BTNH">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card">
+                            <a href="#"><img src="./featuredImg3.jpg" class="card-img-top" alt="Img3"
+                                    style="height:255px"></a>
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="#" class="CardLink text-dark fw-bolder">MERN Full Stack
+                                        Web Development</a></h5>
+                                <p class="card-text">Learn to develop awesome web applications using cutting edge
+                                    technologies like React.js, Node.js, Express.js & MongoDB.</p>
+                                <a href="#" class="btn justify-content-center BTNH">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-center my-5 mb-5">Don't hesitate, contact us for better help and services. <a
+                            href="#" style="color:rgb(15, 15, 15)"><b>Explore all Courses</b></a></p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <section>
+        <div class="container-fluid">
+            <h6 class="text-danger text-center my-3 pt-4">MASTER THE ART OF WEB DEVELOPMENT</h6>
+            <h2 class="fw-bolder text-center">Full Stack Web Development Courses</h2>
+            <p class="my-4 mb-5 text-center">These are the most trending and favourite courses among our students.</p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <div class="card" style="background-color: rgb(222, 223, 224);">
+                            <img src="./featuredImg2.jpg" class="card-img-top" alt="Img1" style="height:255px" />
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="#" class="CardLink text-dark fw-bolder">MERN Full Stack
+                                        Web Development</a></h5>
+                                <p class="card-text">Learn to develop awesome web applications using cutting edge
+                                    technologies like React.js, Node.js, Express.js & MongoDB.
+                                </p>
+                                <a href="#" class="btn  BTNH">Know More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card" style="background-color: rgb(222, 223, 224);">
+                            <img src="./featuredImg3.jpg" class="card-img-top" alt="Img2" style="height:255px">
+                            <div class="card-body">
+                                <h5 class="card-title "><a href="#" class="CardLink text-dark fw-bolder">Java - Full
+                                        Stack Web Development</a></h5>
+                                <p class="card-text">Learn to develop awesome web applications using evergreen Java,
+                                    MySQL and cutting edge technologies like React.js.</p>
+                                <a href="#" class="btn  BTNH">Know More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card" style="background-color: rgb(222, 223, 224);">
+                            <a href="#"><img src="./featuredImg1.jpg" class="card-img-top" alt="Img3"
+                                    style="height:255px"></a>
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="#" class="CardLink text-dark fw-bolder">PHP Full Stack
+                                        Web Development</a></h5>
+                                <p class="card-text">Learn to develop awesome web applications using PHP on which
+                                    world’s 70% websites still work. Also learn Codeigniter and MySQL.</p>
+                                <a href="#" class="btn justify-content-center BTNH">Know More</a>
+                            </div>
+                        </div>
+                    </div><br><br><br><br>
+                </div><br>
+            </div>
+        </div>
+    </section>
+    <br><br><br>
+    <section>
+        <div class="container-fluid" style="background-color: rgb(222, 223, 224);">
+            <h6 class="text-danger text-center my-3 pt-4">GET STARTED IN THE WORLD OF PROGRAMMING</h6>
+            <h2 class="fw-bolder text-center">Essential Programming</h2>
+            <p class="my-4 mb-5 text-center">Most essential programming courses everyone must learn.</p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-3">
+                        <div class="card">
+                            <img src="./C-Img.jpg" class="card-img-top" alt="Img1" style="height:255px" />
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="#" class="CardLink text-dark fw-bolder">C
+                                        Programming</a></h5>
+                                <p class="card-text">Learn the most famous and essential programming language. You will
+                                    learn C programming language from basic to advanced concepts.
+                                </p>
+                                <a href="#" class="btn  BTNH">Know More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <div class="card">
+                            <img src="./C++Img.jpg" class="card-img-top" alt="Img2" style="height:255px">
+                            <div class="card-body">
+                                <h5 class="card-title "><a href="#" class="CardLink text-dark fw-bolder">C++
+                                        Programming</a></h5>
+                                <p class="card-text">Learn the most essential programming language. You will learn C++
+                                    programming language from basic to advanced concepts </p>
+                                <a href="#" class="btn  BTNH">Know More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <div class="card">
+                            <a href="#"><img src="./java-Img.jpg" class="card-img-top" alt="Img3"
+                                    style="height:255px"></a>
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="#" class="CardLink text-dark fw-bolder">Java
+                                        Programming</a></h5>
+                                <p class="card-text">Learn the most famous programming language. You will learn Java
+                                    programming language from basic to advanced concepts including OOP.</p>
+                                <a href="#" class="btn justify-content-center BTNH">Know More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <div class="card">
+                            <img src="./Python.jpg" class="card-img-top" alt="Img2" style="height:255px">
+                            <div class="card-body">
+                                <h5 class="card-title "><a href="#" class="CardLink text-dark fw-bolder">Python
+                                        Programming</a></h5>
+                                <p class="card-text">Learn the most easiest programming language. You will learn Python
+                                    programming language from basic to advanced concepts including OOP.</p>
+                                <a href="#" class="btn  BTNH">Know More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <br><br><br>
+            </div>
+
+        </div>
+    </section>
+    <section>
+        <br><br><br>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-5 ">
+                    <img src="./AboutUsImg.png" alt="AboutUs" class="image-fluid w-100% border p-4"
+                        style="height:500px" />
+
+                </div>
+                <div class="col-12 col-md-7">
+                    <h4 class="text-danger">ABOUT WISDOM SPROUTS</h4>
+                    <h2>Shaping Careers<br>
+                        Since 2014</h2>
+                    <p>We take immense pride in calling ourselves as the first preference of many students when it comes
+                        to training. Our faculties, who have multiple years of industry experience make sure that
+                        students don’t miss out on any part when it comes to their training. We even believe in giving
+                        extra to the students than what is promised. Around 70% of the students who are trained at
+                        Wisdom Sprouts make it to their desired Job. Our specialty is training students who are lack in
+                        their technical skills, confidence and soft skills.</p>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col col-6">
+                                <p>➡️ Providing training for
+                                    booming technologies</p>
+                                <p>➡️ 100% practical sessions</p>
+                                <p>➡️ Guaranteed career growth</p>
+
+                            </div>
+                            <div class="col col-6">
+                                <p>➡️ 100% placement
+                                    assistance</p>
+                                <p>➡️ Experienced faculty and
+                                    teachers</p>
+                                <p>➡️ Flexible fee and payment
+                                    methods</p>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col col-5">
+                                <div class="row">
+                                    <div class="col col-4 ">
+                                        <!--<i class="fa-solid fa-graduation-cap"></i>-->
+                                        <img src="./graduationCap.png" alt="Graduation" class="image w-120 h-100  " />
+                                    </div>
+                                    <div class="col col-8">
+                                        <h4>6 Years Of</h4>
+                                        <h6>Education Experience</h6>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col col-3">
+                                <img src="./sign.png" alt="Sign" class="image-fluid w-80 h-53 mr-0" />
+                            </div>
+
+                            <div class="col col-4">
+                                <h5>Swapneel Petkar</h5>
+                                <p>Managing Director</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--<ul class="footerUL">
+                        <div class="d-flex justify-content-between">
+                            <li class="footerLI"><a href="#" class="CustomLink text-dark">➡️ Providing training for
+                                    booming technologies</a></li>
+                            <li class="footerLI"><a href="#" class="CustomLink text-dark">➡️ 100% practical sessions</a>
+                            </li>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <li class="footerLI"><a href="#" class="CustomLink text-dark">➡️ Guaranteed career
+                                    growth</a></li>
+                            <li class="footerLI"><a href="#" class="CustomLink text-dark">➡️ 100% placement
+                                    assistance</a></li>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <li class="footerLI"><a href="#" class="CustomLink text-dark">➡️ Experienced faculty and
+                                    teachers</a></li>
+                            <li class="footerLI"><a href="#" class="CustomLink text-dark">➡️ Flexible fee and payment
+                                    methods</a></li>
+                        </div>
+                    </ul>-->
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <br><br>
+    <section>
+        <div class="container-fluid" style="background-color: rgb(222, 223, 224);">
+            <h2 class="fw-bolder text-center">Featured Courses</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 col-md-2">
+                        <div class="card">
+                            <img src="./clg1.jpg" class="card-img-top" alt="Img1"
+                                style="height: 50px; object-fit: cover;" />
+                        </div>
+                    </div>
+
+                    <div class="col-4 col-md-2">
+                        <div class="bg-white p-3  text-center">
+                            <img src="./clg2.jpeg" class="" alt="Img1" style="height:155px; object-fit: contain;" />
+                        </div>
+                    </div>
+                    <div class="col-4 col-md-2">
+                        <div class="card">
+                            <img src="./clg3.png" class="" alt="Img1" style="height:155px; object-fit: contain;" />
+                        </div>
+                    </div>
+                    <div class="col-4 col-md-2">
+                        <div class="card">
+                            <img src="./clg4.jpg" class="" alt="Img1" style="height:255px; object-fit: contain;" />
+                        </div>
+                    </div>
+
+                    <div class="col-4 col-md-2">
+                        <div class="card">
+                            <img src="./clg5.jpg" class="img-fluid" alt="Img1"
+                                style="height:155px; object-fit: contain;" />
+                        </div>
+                    </div>
+                    <div class="col-4 col-md-2">
+                        <div class="card">
+                            <img src="./clg6.jpg" class="" alt="Img1" style="height:155px; object-fit: contain;" />
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4 col-md-2">
+                        <div class="card">
+                            <img src="./clg7.jpeg" class="" alt="Img1" style="height:155px;object-fit: contain;" />
+                        </div>
+                    </div>
+                    <div class="col-4 col-md-2">
+                        <div class="card">
+                            <img src="./clg8.jpg" class="" alt="Img1" style="height:155px;object-fit: contain;" />
+                        </div>
+                    </div>
+                    <div class="col-4 col-md-2">
+                        <div class="card">
+                            <img src="./clg9.jpg" class="" alt="Img1" style="height:155px; object-fit: contain;" />
+                        </div>
+                    </div>
+                    <div class="col-4 col-md-2">
+                        <div class="card">
+                            <img src="./clg10.png" class="" alt="Img1" style="height:155px;object-fit: contain;" />
+                        </div>
+                    </div>
+                    <p class="text-center my-5 mb-5">Don't hesitate, contact us for better help and services. <a
+                            href="#" style="color:rgb(15, 15, 15)"><b>Explore all Courses</b></a></p>
+                </div>
+            </div>
+
+        </div>
+
+        </div>
+    </section>
+    <footer>
+        <div class="container-fluid text-light Custom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <img src="./wisdomlogo.png" alt="logo" class="img-fluid"
+                            style="width: 170px; height:100px; padding:10px;" />
+
+                        <p class="lead">Wisdom Sprouts IT Training Hub is a leading IT training provider institute in
+                            Pune. Wisdom Sprouts is owned by ScaleFull Technologies LLP.</p>
+                        <h4>Opening Hours</h4>
+                        <div class="d-flex justify-content-between">
+                            <p>Mon - Sat</p>
+                            <p>09AM - 07PM</p>
+                        </div>
+                        <hr>
+                        <div class="d-flex justify-content-between">
+                            <p>Sun</p>
+                            <p>Closed</p>
+                        </div>
+                        <hr>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <h3 class="my-4 pb-2" style="padding-left: 30px;">Checkout</h3>
+                        <ul class="footerUL">
+                            <li class="footerLI "><a href="#" class="CustomLink">College Trainings | Internships |
+                                    Workshops</a></li>
+                            <li class="footerLI "><a href="#" class="CustomLink">Our Placements</a></li>
+                            <li class="footerLI "><a href="#" class="CustomLink">Contact Us</a></li>
+                            <li class="footerLI "><a href="#" class="CustomLink">About Us</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <h3 class="my-4 pb-2" style="padding-left: 30px;">Our Courses</h3>
+                        <ul class="footerUL">
+                            <li class="footerLI "><a href="#" class="CustomLink">Job Guaranteed Program MERN</a></li>
+                            <li class="footerLI "><a href="#" class="CustomLink">MERN – Full Stack Web Development</a>
+                            </li>
+                            <li class="footerLI "><a href="#" class="CustomLink">Java – Full Stack Web Development</a>
+                            </li>
+                            <li class="footerLI "><a href="#" class="CustomLink">PHP – Full Stack Web Development</a>
+                            </li>
+                            <li class="footerLI "><a href="#" class="CustomLink">React.js – Frontend Web Development</a>
+                            </li>
+                            <li class="footerLI "><a href="#" class="CustomLink">Front-end Web Development</a></li>
+                            <li class="footerLI "><a href="#" class="CustomLink">Java</a></li>
+                            <li class="footerLI "><a href="#" class="CustomLink">Python</a></li>
+                            <li class="footerLI "><a href="#" class="CustomLink">C++</a></li>
+                            <li class="footerLI "><a href="#" class="CustomLink">C</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <h3 class="my-4 pb-2">Get In Touch</h3>
+                        <address>
+                            <p style="line-height: 20px;" class="pb-10px">
+                                406, White Square,<br>
+                                Wakad-Hinjawadi Road<br>
+                                Wakad<br>
+                                Pune, Maharashtra 411045<br>
+                                India<br>
+                                helpdesk@wisdomsprouts.in<br>
+                                +91-7770043825<br></p>
+                        </address>
+
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="text-center">
+                <p>Hinjawadi | Akurdi | Sinhagad Road | Tilak Road</p>
+            </div>
+            <hr>
+            <div class="text-center pb-3">
+                <p>Copyright © 2023 Wisdom Sprouts IT Training Hub. All rights reserved.
+                </p>
+            </div>
+
+        </div>
+    </footer>
+
+    <div class="topArrow">
+        <a href="#goTOTop" class="textTop">
+            <i class="fa-solid fa-arrow-up"></i><br>TOP
+        </a>
+    </div>
+    
+        <a href="https://example.com" style="position: fixed; bottom: 20px; right: 20px; z-index: 1000;">
+            <img src="./whatsapp.jpeg" alt="WhatsApp" style="width: 60px; height: 60px; border-radius: 10px;">
+        </a>
+    
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
